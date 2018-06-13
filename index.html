@@ -2,7 +2,36 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title>四面打ち麻雀</title>
+<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+<script>
+// UA判定用
+var userAgent = window.navigator.userAgent.toLowerCase();
+var appVersion = window.navigator.appVersion.toLowerCase();
+// ロード・リサイズ時に画面最適化
+$(window).bind("load resize", function(){
+    var width = $(window).height();
+    $("html").css("zoom" , width/1080);
+    if (appVersion.indexOf("msie 9.") != -1) {
+        $("html").css("-ms-transform" , "scale(" + width/1080 + ")").css("-ms-transform-origin" , "0 0");
+        $("body").css("overflow-x" , "hidden");
+    } else if (userAgent.indexOf('gecko') != -1) {
+        $("html").css("-moz-transform" , "scale(" + width/1080 + ")").css("-moz-transform-origin" , "0 0");
+        $("body").css("overflow-x" , "hidden");
+    }
+});
+</script>
+<style>
+/* IE用viewport */
+@-ms-viewport {height: 1080px;}
+/* common */
+html,body {margin:0;padding:0}
+</style>
 </head>
 <body>
 
