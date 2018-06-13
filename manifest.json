@@ -4,10 +4,10 @@
 	"description":		"",
 	"start_url":		"https://tshimizu09.github.io/4menmajiang/",
 	"display":			"standalone",
-	"orientation":		"any",
+	"orientation":		"landscape",
 	"background_color":	"#fff",
 	"theme_color":		"#fff",
-	"orientation":		"any",
+	"orientation":		"landscape",
 	"icons": [
 		{
 			"src": "favicon/android-chrome-36x36.png",
