@@ -1,8 +1,8 @@
 {
-	"name":				"",
-	"short_name":		"",
+	"name":				"電脳麻将で四面打ち麻雀",
+	"short_name":		"電脳麻将で四面打ち麻雀",
 	"description":		"",
-	"start_url":		"/4menmajiang/",
+	"start_url":		"https://tshimizu09.github.io/4menmajiang/",
 	"display":			"standalone",
 	"orientation":		"any",
 	"background_color":	"#fff",
