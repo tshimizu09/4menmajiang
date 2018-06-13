@@ -37,6 +37,6 @@ iframe{
 #main{
     *position:absolute; /* IE7用 */
     _position:relative; /* IE6用 */
-    width:100%;
+    width:800px;
     height:100%;
 }
