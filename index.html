@@ -16,14 +16,9 @@ var appVersion = window.navigator.appVersion.toLowerCase();
 // ロード・リサイズ時に画面最適化
 $(window).bind("load resize", function(){
     var width = $(window).height();
-    $("html").css("zoom" , width/576);
-    if (appVersion.indexOf("msie 9.") != -1) {
-        $("html").css("-ms-transform" , "scale(" + width/576 + ")").css("-ms-transform-origin" , "0 0");
-        $("body").css("overflow-x" , "hidden");
-    } else if (userAgent.indexOf('gecko') != -1) {
-        $("html").css("-moz-transform" , "scale(" + width/576 + ")").css("-moz-transform-origin" , "0 0");
-        $("body").css("overflow-x" , "hidden");
-    }
+    $(".a").css("width" , width/2/720*800+"px").css("height" , width/2+"px").css("overflow-x" , "hidden").css("border" , "1px").css("solid" , "#999");
+    $(".b").css("width" , width/2/720*800+"px").css("height" , width/2+"px").css("overflow" , "hidden");
+    $(".c").css("transform" , "scale(" + width/2/720 + ")").css("-o-transform" , "scale(" + width/2/720 + ")").css("-webkit-transform" , "scale(" + width/2/720 + ")").css("-moz-transform" , "scale(" + width/2/720 + ")").css("-ms-transform" , "scale(" + width/2/720 + ")").css("transform-origin" , "0 0").css("-o-transform-origin" , "0 0").css("-webkit-transform-origin" , "0 0").css("-moz-transform-origin" , "0 0").css("-ms-transform-origin" , "0 0");
 });
 </script>
 <style>
@@ -36,26 +31,26 @@ html,body {margin:0;padding:0}
 <body>
 
 <div style="display: flex;">
-<div style="width:320px;height:288px;overflow-x:hidden;border:1px solid #999">
-    <div style="width:320px;height:288px;overflow:hidden;">
-        <iframe src="majiang1/" frameborder="0" scrolling="no" width="800" height="720" style="transform:scale(0.4);-o-transform:scale(0.4);-webkit-transform:scale(0.4);-moz-transform:scale(0.4);-ms-transform:scale(0.4);transform-origin:0 0;-o-transform-origin:0 0;-webkit-transform-origin:0 0;-moz-transform-origin:0 0;-ms-transform-origin:0 0;"></iframe>
+<div class="a">
+    <div class="b">
+        <iframe src="majiang1/" frameborder="0" scrolling="no" width="800" height="720" class="c"></iframe>
     </div>
 </div>
-<div style="width:320px;height:288px;overflow-x:hidden;border:1px solid #999">
-    <div style="width:320px;height:288px;overflow:hidden;">
-        <iframe src="majiang1/" frameborder="0" scrolling="no" width="800" height="720" style="transform:scale(0.4);-o-transform:scale(0.4);-webkit-transform:scale(0.4);-moz-transform:scale(0.4);-ms-transform:scale(0.4);transform-origin:0 0;-o-transform-origin:0 0;-webkit-transform-origin:0 0;-moz-transform-origin:0 0;-ms-transform-origin:0 0;"></iframe>
+<div class="a">
+    <div class="b">
+        <iframe src="majiang1/" frameborder="0" scrolling="no" width="800" height="720" class="c"></iframe>
     </div>
 </div>
 </div>
 <div style="display: flex;">
-<div style="width:320px;height:288px;overflow-x:hidden;border:1px solid #999">
-    <div style="width:320px;height:288px;overflow:hidden;">
-        <iframe src="majiang1/" frameborder="0" scrolling="no" width="800" height="720" style="transform:scale(0.4);-o-transform:scale(0.4);-webkit-transform:scale(0.4);-moz-transform:scale(0.4);-ms-transform:scale(0.4);transform-origin:0 0;-o-transform-origin:0 0;-webkit-transform-origin:0 0;-moz-transform-origin:0 0;-ms-transform-origin:0 0;"></iframe>
+<div class="a">
+    <div class="b">
+        <iframe src="majiang1/" frameborder="0" scrolling="no" width="800" height="720" class="c"></iframe>
     </div>
 </div>
-<div style="width:320px;height:288px;overflow-x:hidden;border:1px solid #999">
-    <div style="width:320px;height:288px;overflow:hidden;">
-        <iframe src="majiang1/" frameborder="0" scrolling="no" width="800" height="720" style="transform:scale(0.4);-o-transform:scale(0.4);-webkit-transform:scale(0.4);-moz-transform:scale(0.4);-ms-transform:scale(0.4);transform-origin:0 0;-o-transform-origin:0 0;-webkit-transform-origin:0 0;-moz-transform-origin:0 0;-ms-transform-origin:0 0;"></iframe>
+<div class="a">
+    <div class="b">
+        <iframe src="majiang1/" frameborder="0" scrolling="no" width="800" height="720" class="c"></iframe>
     </div>
 </div>
 </div>
