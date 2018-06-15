@@ -2,7 +2,7 @@
 	"name":				"電脳麻将で四面打ち麻雀",
 	"short_name":		"電脳麻将で四面打ち麻雀",
 	"description":		"",
-	"start_url":		"https://tshimizu09.github.io/4menmajiang/",
+	"start_url":		"./?utm_source=homescreen",
 	"display":			"standalone",
 	"orientation":		"landscape",
 	"background_color":	"#fff",
