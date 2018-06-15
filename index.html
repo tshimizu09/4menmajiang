@@ -46,6 +46,15 @@
 <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title>電脳麻将で四面打ち麻雀</title>
+    <script>
+        // この記述を追記
+        if ('serviceWorker' in navigator) {
+        navigator.serviceWorker
+                 .register('/service-worker.js') // ここはservice-worker.jsのパスを指定
+                 .then(function() { console.log('Service Worker Registered'); });
+        }
+        // この記述を追記　ここまで
+    </script>
 <script
   src="https://code.jquery.com/jquery-1.12.4.min.js"
   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
