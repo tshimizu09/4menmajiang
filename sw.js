@@ -3,7 +3,7 @@
 const ORIGIN = location.protocol + '//' + location.hostname;
 
 //const STATIC_CACHE_KEY = 'static-' + VERSION;
-const STATIC_CACHE_KEY = '0.9.7';
+const STATIC_CACHE_KEY = '0.9.7.1';
 const STATIC_FILES = [
   ORIGIN + '/',
   ORIGIN + '/favicon/android-chrome-128x128.png',
@@ -135,7 +135,6 @@ const STATIC_FILES = [
   ORIGIN + '/majiang/js/ui.js',
   ORIGIN + '/majiang/js/view.js',
   ORIGIN + '/majiang/js/xiangting.js',
-  'https://code.jquery.com/jquery-1.12.4.min.js'
 ];
 
 const CACHE_KEYS = [
