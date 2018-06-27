@@ -31,7 +31,7 @@ https://twitter.com/tshimizu09/status/1007889521944322049/video/1
 
 ・AndroidのGoogle ChromeやiOSのSafariで、ホーム画面に追加をしてそこから起動すると単体アプリっぽく動きます
 
-・WindowsのGoogle Chromeの場合、その他のツール→ショートカットの作成で、<br>ウインドウとして開くのチェックを入れたまま作成すると単体アプリっぽく動作します。
+・WindowsのGoogle Chromeの場合、その他のツール→ショートカットの作成で、<br>　ウインドウとして開くのチェックを入れたまま作成すると単体アプリっぽく動作します。
 
 ・WindowsのGoogle Chromeで単体アプリっぽく動かしたのがこちら
 https://twitter.com/tshimizu09/status/1006853350409695234/video/1
