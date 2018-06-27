@@ -11,8 +11,9 @@ Copyright&copy; 2018 tshimizu09<br>
 Released under the MIT license<br>
 https://github.com/tshimizu09/4menmajiang/blob/master/LICENSE
 
-## ゲームエンジン部分のソースコード
+## ゲームエンジン部分のソースコードと、そのREADME
 https://github.com/kobalab/Majiang
+https://github.com/kobalab/Majiang/blob/master/README.md
 
 ### テストプレイの結果、現時点で分かっている事
 ・横画面で動かす事しか想定していないので、強制的に横画面で動くように設定しています。
