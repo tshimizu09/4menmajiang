@@ -12,7 +12,7 @@ Released under the MIT license<br>
 https://github.com/tshimizu09/4menmajiang/blob/master/LICENSE
 
 ## ゲームエンジン部分のソースコードと、そのREADME
-https://github.com/kobalab/Majiang
+https://github.com/kobalab/Majiang<br>
 https://github.com/kobalab/Majiang/blob/master/README.md
 
 ### テストプレイの結果、現時点で分かっている事
