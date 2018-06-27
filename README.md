@@ -4,7 +4,7 @@ HTML5 + JavaScript で動作する麻雀アプリ「電脳麻将」<br>
 PWAアプリ化してみた物
 
 ## デモ
-http://tshimizu09.github.io/4menmajiang/
+https://tshimizu09.github.io/4menmajiang/
 
 ## ライセンス
 Copyright&copy; 2018 tshimizu09<br>
@@ -24,6 +24,10 @@ https://github.com/kobalab/Majiang
 
 ・オフライン動作デモはこちら
 https://twitter.com/tshimizu09/status/1007889521944322049/video/1
+
+・デモサイトを各種ブラウザで開くと、ホーム画面に追加しますか？と聞かれる事があるかもしれませんが、<br>
+PWAアプリの仕様がそうなってるので邪魔になったら申し訳無い…<br>
+ホーム画面に後で手動で追加する方法やメリット等は以下に記します。
 
 ・AndroidのGoogle ChromeやiOSのSafariで、ホーム画面に追加をしてそこから起動すると単体アプリっぽく動きます
 
